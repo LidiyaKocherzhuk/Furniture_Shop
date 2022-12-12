@@ -1,0 +1,17 @@
+export const urls = {
+    BASE_URL: 'http://localhost/api/',
+    AUTH: '/auth',
+    USERS: '/users',
+    PRODUCTS: '/products',
+    BED_PRICE: '/bedPrice',
+    PRODUCT_IMAGES: '/productImages',
+    IMAGES: '/images',
+    TEXTILE: '/textile',
+    TEXTILE_IMAGES: '/textileImages',
+    PRODUCT_TEXTILE: '/productTextile',
+    PRODUCT_MATERIAL: '/madeOf',
+    BASKET: '/basket',
+    ORDERED: '/ordered',
+    IS_LIKE: '/isLike',
+    MEETING: '/meeting',
+};

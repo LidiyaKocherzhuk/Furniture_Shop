@@ -1,0 +1,99 @@
+#footer {
+    width: 100%;
+    height: 40vh;
+    background: #5c636a;
+    margin-top: 50px;
+    position: relative;
+    padding: 1% 10%;
+    bottom: 0;
+}
+
+.footer-top {
+    display: flex;
+    height: 80%;
+    color: #292929;
+}
+
+.contacts, .footer-nav {
+    height: 100%;
+    width: 30%;
+    /*border-right: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.follow {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.follow a {
+    width: 50%;
+    text-decoration: none;
+    color: #292929;
+}
+
+.follow a:hover {
+    color: black;
+}
+
+.contacts img {
+    width: 50%;
+    margin: 20px;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+
+.footer-top p {
+    font-size: 13px;
+    margin: unset;
+}
+
+.footer-nav {
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.payByCard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payByCard img{
+    width: 30%;
+}
+
+.networks-icons {
+    display: flex;
+}
+
+.networks-icons svg {
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.FaInstagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%, transparent);
+}
+
+.FaFacebookF, .FaTelegramPlane {
+    background: #0b89f0;
+}
+
+.product-created {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}

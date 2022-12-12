@@ -1,0 +1,8 @@
+#add-madeOf {
+    margin-top: 50px;
+}
+
+.add-madeOf {
+    display: flex;
+    flex-direction: column;
+}

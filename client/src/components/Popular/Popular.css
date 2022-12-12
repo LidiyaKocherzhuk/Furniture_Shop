@@ -1,0 +1,30 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular hr {
+    border: 1px solid silver;
+}
+
+.popular h1 {
+    font-family: serif;
+}
+
+.popular-cards {
+    width: 85%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-header {
+    width: 90%;
+    margin-top: 20px;
+    padding: 30px 50px 0;
+    font-family: serif;
+}

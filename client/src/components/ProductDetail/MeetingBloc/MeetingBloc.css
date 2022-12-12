@@ -1,0 +1,31 @@
+.meetingBloc {
+    position: fixed;
+    top: -2000px;
+}
+
+.meetingBlocShow {
+    background: #cdcdcdf0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #90a7ab;
+    width: 50%;
+    height: 40%;
+    top: 30vh;
+    display: block;
+}
+
+.warning, .meetingMessage{
+    text-align: center;
+    font-family: serif;
+    margin: 20px;
+}
+
+.meetingMessage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+ }
+.meetingMessage input {
+    border-radius: 5px;
+
+}

@@ -1,0 +1,14 @@
+.env
+.env.db
+.idea
+images
+mysql
+
+backend/.idea
+backend/package-lock.json
+backend/ormconfig.json
+backend/node_modules
+
+client/node_modules
+client/package-lock.json
+client/.env

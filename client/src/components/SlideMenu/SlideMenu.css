@@ -1,0 +1,79 @@
+#carousel-menu {
+    position: relative;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background: none;
+}
+
+.icon-next, .icon-prev {
+    border: 2px solid black;
+    color: #000000;
+}
+
+.icon-next:hover, .icon-prev:hover {
+    background: black;
+    transition: 1s;
+}
+
+.icon-prev:hover > .icon, .icon-next:hover > .icon {
+    transition: 1s;
+    color: white;
+}
+
+.icon {
+    font-size: 35px;
+}
+
+.add-slide-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 55%;
+    font-size: 25px;
+    background: #ffffff82;
+    color: black;
+    border: 1px solid #033840;
+    box-shadow: 0 0 10px 2px #033840;
+    border-radius: 30px;
+}
+
+.add-slide-btn:hover {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.add-slide {
+    display: none;
+}
+
+.update-image_hide_bloc {
+    display: none;
+}
+
+.update-image_show_bloc, .show-add-slide {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 15%;
+    left: 20%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 111;
+    border-radius: 20px;
+}
+
+#update-image_form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+    background: #00000059;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 black;
+}
+

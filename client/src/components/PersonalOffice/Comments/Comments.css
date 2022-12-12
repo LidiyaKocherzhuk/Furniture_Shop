@@ -1,0 +1,58 @@
+.comments-user {
+    padding: 20px;
+}
+
+.comments-user h2 {
+    margin: 20px 5% 50px;
+    font-family: fangsong;
+    font-size: 40px;
+}
+
+.all-user-comments {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.one-user-comment {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid silver;
+}
+
+.product-comment {
+    width: 30%;
+    border-right: 1px solid silver;
+    margin-right: 20px;
+}
+
+.product-comment a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-comment a:hover {
+    color: #ff5722;
+}
+
+.product-comment img {
+    width: 40%;
+    border-radius: 15px;
+}
+
+.comment-message {
+    width: 70%;
+    min-height: 100px;
+    background: #fafafa;
+    position: relative;
+    padding: 20px 20px 30px;
+}
+
+.date {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+.products-bloc {
+    display: flex;
+}
+
+.right-products-bloc {
+    width: 80%;
+}
+.sort-bloc {
+    padding: 20px 20px 0;
+    text-align: end;
+}
+.all-product {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.dropdown-menu button {
+    width: fit-content;
+}
+
+.pagination-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.pagination-btn button {
+    width: 20%;
+    color: black;
+    background: #cecece;
+}
+
+.pagination-btn button:hover {
+    box-shadow: 0 0 16px 0 #767676;
+}

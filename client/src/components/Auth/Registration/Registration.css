@@ -1,0 +1,14 @@
+#userForm input {
+    float: right;
+    width: 60%;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.spinner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

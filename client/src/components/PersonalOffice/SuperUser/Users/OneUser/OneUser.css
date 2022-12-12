@@ -1,0 +1,91 @@
+.one-user {
+    display: flex;
+    align-items: start;
+    padding: 10px;
+    border: 1px solid silver;
+    margin: 5px;
+    position: relative;
+}
+
+.one-user img {
+    width: 20%;
+    margin: 10px;
+}
+
+.one-user-info {
+    width: 70%;
+}
+
+.one-user-info h6 {
+    margin-left: 10px;
+}
+
+.one-user-events {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.one-user-events svg {
+    font-size: 20px;
+}
+
+.one-user-events svg:hover {
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.tooltip-event {
+    position: relative;
+    display: inline-block;
+    margin: 0 1%;
+    color: #285AEB;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 1px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    transition: opacity 0.3s;
+}
+
+.tooltip-event .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-event:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.delete-icon, .admin {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.delete-icon:hover {
+    opacity: 1;
+    font-size: 16px;
+    cursor: pointer;
+}
+

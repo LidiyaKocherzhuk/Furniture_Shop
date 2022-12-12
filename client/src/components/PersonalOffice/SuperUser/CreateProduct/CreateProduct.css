@@ -1,0 +1,71 @@
+#create-product {
+    position: relative;
+    padding: 20px;
+}
+
+.create-product-header {
+    background-image: url("https://my-study-okten.s3.eu-west-1.amazonaws.com/imageForDesign/designImages/af0d72ed-36b6-4522-865c-cc68df4133f1home-design.jpg");
+    background-position: center;
+    height: 80px;
+}
+
+.header-h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.select-bloc {
+    text-align: center;
+}
+
+#save-product-form, #bed-price {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    margin: 50px 50px 20px;
+}
+
+#save-product-form label {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bed-price {
+    row-gap: 5px;
+}
+
+#create-images-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.fileElement {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    margin: 10px 0;
+}
+.additionally {
+    display: none;
+}
+
+.show-additionally {
+    display: block;
+    position: absolute;
+    background: #cdcdcdf0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #90a7ab;
+    top: 10vh;
+    padding-bottom: 50px;
+    z-index: 1;
+    width: 98%;
+    height: 50vh;
+
+}
+
+.additionally h5 {
+    margin: 25px;
+}

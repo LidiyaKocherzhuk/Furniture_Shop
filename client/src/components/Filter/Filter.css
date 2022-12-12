@@ -1,0 +1,55 @@
+.filter-bloc {
+    width: 20%;
+    padding: 20px;
+}
+
+.form-label {
+    width: 50%;
+}
+
+.price-label {
+    text-align: right;
+}
+
+.price-span {
+    color: #ff4d00;
+}
+
+.div-100w {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.div-100w > p {
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 #8e8e8e;
+    margin: 10px;
+    text-shadow: 0 0 black;
+    background: #f8f8f8;
+    padding-left: 20px;
+}
+
+.div-100w > div {
+    margin: 3px;
+    padding-left: 10px;
+}
+
+.div-100w > div:hover {
+    border-radius: 5px;
+    box-shadow: inset 0 0 4px 0 silver;
+    cursor: pointer;
+}
+
+.div-100w > div:active {
+    color: #ff5722;
+}
+
+.label-100w {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.label-100w > input {
+    cursor: pointer;
+
+}

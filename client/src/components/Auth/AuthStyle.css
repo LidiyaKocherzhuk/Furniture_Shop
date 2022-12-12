@@ -1,0 +1,85 @@
+#auth {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 40rem 33rem 20px #00000080;
+}
+
+.authBloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 5vh 20vw;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.66);
+}
+
+.authBloc h2 {
+    font-family: serif;
+    font-weight: 900;
+}
+
+.authBloc h6 {
+    color: red;
+    font-style: italic;
+}
+
+.authBloc p {
+    font-size: 14px;
+    font-family: inherit;
+    font-style: italic;
+    margin: 10px;
+}
+
+.authBloc form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 10px;
+    width: fit-content;
+}
+
+.authBloc span {
+    color: red;
+}
+
+.spanError {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.authBloc button {
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    background: #033840d9;
+    color: wheat;
+    padding: 5px 20px;
+}
+
+.authBloc button:hover {
+    background: #033840;
+}
+
+.to-register {
+    margin: 10px 0;
+    width: fit-content;
+}
+
+.forgot-password {
+    width: fit-content;
+
+}
+
+.forgot-password span {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.forgot-password span:hover {
+    color: #5b6efd;
+    cursor: pointer;
+}

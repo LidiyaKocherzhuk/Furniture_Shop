@@ -1,0 +1,98 @@
+#textile-detail {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.textile-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 60%;
+}
+
+.textile-images-left {
+    width: 25%;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+}
+
+.textile-images-left button {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.textile-images-left img {
+    width: 80%;
+    margin: 5px;
+}
+
+.textile-images-left img:hover {
+    width: 90%;
+}
+
+.textile-image-right {
+    width: 65%;
+}
+.update-textileImage-btn {
+    width: 5%;
+}
+
+.textile-description {
+    width: 40%;
+    padding: 20px;
+    text-align: start;
+}
+
+.textile-description > h4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textile-description h6 {
+    font-size: 19px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 30px;
+}
+
+.close-btn:hover {
+    font-size: 33px;
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.update-textile-btn {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+.update-textile-btn:hover, .update-textileImage-btn:hover {
+    font-size: 18px;
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.update-textile {
+    display: none;
+}
+
+.update-textile-show {
+    width: 90%;
+    display: block;
+    position: absolute;
+    top: -50px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #90a7ab;
+    padding: 50px;
+    z-index: 1;
+}

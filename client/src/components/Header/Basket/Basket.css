@@ -1,0 +1,44 @@
+.basket {
+    padding: 20px;
+    position: relative;
+}
+
+.basket-header h2 {
+    margin: 20px 5% 50px;
+    font-family: fangsong;
+    font-size: 40px;
+}
+
+.send-btn {
+    padding: 0 5% 50px;
+    text-align: end;
+}
+
+.send-btn button {
+    height: 45px;
+}
+
+.price-count {
+    color: rgba(255, 77, 0, 0.94);
+}
+
+.modal-thank {
+    position: fixed;
+    top: -3000px;
+}
+
+.modal-thank-show {
+    background: #f3f3f3a3;
+    box-shadow: 1px 0 20px 0 black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    height: 25vh;
+    top: 30vh;
+    right: 30vw;
+}
+
+.modal-thank-show svg {
+    color: #ff5722;
+}

@@ -1,0 +1,12 @@
+.add-images h3 {
+    text-align: center;
+}
+
+#add-slide-images {
+    padding-left: 100px;
+}
+
+#slide-images {
+    display: flex;
+    flex-direction: column;
+}

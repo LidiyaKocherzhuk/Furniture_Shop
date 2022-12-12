@@ -1,0 +1,14 @@
+.likes {
+    padding: 20px;
+}
+
+.likes h2 {
+    margin: 20px 5% 50px;
+    font-family: fangsong;
+    font-size: 40px;
+}
+
+.like-products {
+    display: flex;
+    flex-wrap: wrap;
+}

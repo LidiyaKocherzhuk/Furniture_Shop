@@ -1,0 +1,43 @@
+.down-menu {
+    display: none;
+    top: -500px;
+    transition: 1s;
+    box-sizing: border-box;
+
+}
+
+.show-down-menu {
+    position: absolute;
+    top: 79px;
+    left: -167px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    min-height: 50vh;
+    background: white;
+    transition: 1s;
+    box-shadow: 0 0 11px 0 black;
+}
+
+.down-menu a {
+    width: 25%;
+    /*border-right: 1px solid silver;*/
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 20px;
+    color: black;
+}
+
+.down-menu a:hover {
+    color: #ff4d00;
+    transition: 1s;
+}
+
+.down-menu img {
+    width: 38%;
+    margin: 10px;
+}
+
+.down-menu a:hover img {
+    width: 35%;
+}

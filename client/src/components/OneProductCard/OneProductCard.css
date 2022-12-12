@@ -1,0 +1,140 @@
+.one-product {
+    width: 18%;
+    border: 1px solid #dadada;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one-product:hover {
+    box-shadow: 0 0 6px 0 silver;
+}
+
+.one-product-top {
+    position: relative;
+}
+
+.image-card{
+    position: relative;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.left, .right {
+    position: absolute;
+    color: #ffffff73;
+    height: 100%;
+    width: 35px;
+}
+
+.left {
+    left: 0;
+    padding-left: 20px;
+}
+
+.right {
+    right: 0;
+    padding-right: 20px;
+}
+
+.image-card:hover > .left {
+    box-shadow: inset 1rem 0 1rem #ffffffbf;
+}
+
+.image-card:hover > .right {
+    box-shadow: inset -1rem 0 1rem #ffffffbf;
+}
+
+.left:hover, .right:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.image-icon {
+    position: absolute;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.81);
+    border-radius: 3px 0 0 3px;
+    width: 20%;
+    height: 8%;
+    padding: 2px;
+}
+
+.heart {
+    right: 0;
+    top: 20px;
+    color: #858585;
+}
+
+.heart:hover {
+    color: #ff4d00;
+    cursor: pointer;
+}
+
+.in-basket {
+    color: #ff4d00;
+    top: 50px;
+    right: 0;
+}
+
+.one-product-description {
+    padding: 0 20px;
+}
+
+.popular-new-icons {
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.popular-new, .novelty-new {
+    width: fit-content;
+    margin: 0 5px 5px;
+    padding: 0 6px;
+    font-size: 12px;
+    background: linear-gradient(to bottom right, #ff9800, #9c27b0);
+    color: white;
+}
+.one-product h5 a {
+    text-decoration: none;
+    color: black;
+}
+.one-product h5 a:hover {
+    color: rgba(218, 65, 0, 0.86);
+}
+.one-product h5, h4 {
+    font-family: serif;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.one-product-footer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.superUserButtons {
+    text-align: end;
+}
+
+.superUserButtons svg {
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 0 5px 2px;
+    font-size: 22px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.superUserButtons svg:hover {
+    background: #eeeeee;
+    color: #ff4d00;
+}
