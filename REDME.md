@@ -72,6 +72,8 @@ After that we add our personal  `username` and `password` to access the MySQL da
   }
 }
 
+```
+
 After that we run the script.
 It will create our tables;
 ### `npm run migration:run`
