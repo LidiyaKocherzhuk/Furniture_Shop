@@ -31,15 +31,4 @@ services:
     volumes:
       - ./frontend:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
-#
-#  migration:
-#    build:
-#      context: .
-#      env_file:
-#        - .env
-#      restart: on-failure
-#      volumes:
-#        - ./backend:/app
-#        - /app/node_modules
-#      command: >
-#        /wait-for-it.sh db:3306 -- npm start
+
