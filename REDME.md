@@ -1,6 +1,8 @@
 ## Start work with the app
 
-At first we create `.env` file, example:
+At first, at the root of our project, we must create some files:
+
+`.env` file, example:
 
 ```js
     PORT = 3200
@@ -35,6 +37,8 @@ And we create `.env.bd` file, example:
     MYSQL_ROOT_PASSWORD=`your password`
 ```
 
+And last one add the file [a link](https://github.com/LidiyaKocherzhuk/wait.for.it.sh/blob/master/wait-for-it.sh);
+
 --------
 After that we go to backend directory
 ### `cd backend`
@@ -44,7 +48,6 @@ In the project directory, you can run:
 And install npm dependencies.
 ### `npm install`
 
-Next in MySQL Schemas we create new database, run the script - `create database project;`
 Also we create `ormconfig.json` file and add to this data below!
 After that we add our personal  `username` and `password` to access the MySQL database!
 
@@ -71,18 +74,16 @@ After that we add our personal  `username` and `password` to access the MySQL da
     "migrationsDir": "src/migration"
   }
 }
-
 ```
 
-After that we run the script.
-It will create our tables;
-### `npm run migration:run`
-
 -------
-Also we go to client side
+After we go to client side
 ### `cd client`
 
-In the project directory, you can run:
+And install npm dependencies.
+### `npm install`
+
+Also we run the command:
 
 ### `npm run build`
 For building our client part to general part
@@ -98,4 +99,11 @@ At first we run:
 
 And next:
 ### `docker-compose up`
+
+After that we need to connect to our database. So we open environment for working with MySQL,
+I work with MySQL Workbench, and create new connection where:
+
+### username === your `MYSQL_USER` from .env.db file
+### password === your `MYSQL_PASSWORD` from .env.db file
+### Path === it is port from docker-compose.yml file `3307`
 

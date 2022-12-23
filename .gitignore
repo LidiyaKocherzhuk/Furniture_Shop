@@ -3,6 +3,7 @@
 .idea
 images
 mysql
+wait-for-it.sh
 
 backend/.idea
 backend/package-lock.json
