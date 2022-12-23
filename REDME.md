@@ -37,7 +37,7 @@ And we create `.env.bd` file, example:
     MYSQL_ROOT_PASSWORD=`your password`
 ```
 
-And last one add the file [a link](https://github.com/LidiyaKocherzhuk/wait.for.it.sh/blob/master/wait-for-it.sh);
+And last one add the file [a link](https://github.com/LidiyaKocherzhuk/wait.for.it.sh);
 
 --------
 After that we go to backend directory
