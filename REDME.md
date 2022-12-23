@@ -103,7 +103,7 @@ And next:
 After that we need to connect to our database. So we open environment for working with MySQL,
 I work with MySQL Workbench, and create new connection where:
 
-username === your `MYSQL_USER` from .env.db file         <br/>
-password === your `MYSQL_PASSWORD` from .env.db file     <br/>
-Path === it is port from docker-compose.yml file `3307`
+`username` === your `MYSQL_USER` from .env.db file         <br/>
+`password` === your `MYSQL_PASSWORD` from .env.db file     <br/>
+`Path` === it is port from docker-compose.yml file `3307`
 
