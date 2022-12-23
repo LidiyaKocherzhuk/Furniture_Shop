@@ -37,18 +37,18 @@ And we create `.env.bd` file, example:
     MYSQL_ROOT_PASSWORD=`your password`
 ```
 
-And last one add the file [a link](https://github.com/LidiyaKocherzhuk/wait.for.it.sh);
+And last one add the file [wait.for.it.sh](https://github.com/LidiyaKocherzhuk/wait.for.it.sh);
 
 --------
 After that we go to backend directory
 ### `cd backend`
 
-In the project directory, you can run:
+In the project directory, you must:
 
-And install npm dependencies.
+Install npm dependencies.
 ### `npm install`
 
-Also we create `ormconfig.json` file and add to this data below!
+Also create `ormconfig.json` file and add to this data below!
 After that we add our personal  `username` and `password` to access the MySQL database!
 
 ```js
@@ -92,7 +92,7 @@ For building our client part to general part
 For watching to changes and automatically rebuild the part
 
 -------
-After that all we started our project.
+After that all, we started our project.
 
 At first we run:
 ### `docker-compose build`
@@ -103,7 +103,7 @@ And next:
 After that we need to connect to our database. So we open environment for working with MySQL,
 I work with MySQL Workbench, and create new connection where:
 
-### username === your `MYSQL_USER` from .env.db file
-### password === your `MYSQL_PASSWORD` from .env.db file
-### Path === it is port from docker-compose.yml file `3307`
+username === your `MYSQL_USER` from .env.db file
+password === your `MYSQL_PASSWORD` from .env.db file
+Path === it is port from docker-compose.yml file `3307`
 
