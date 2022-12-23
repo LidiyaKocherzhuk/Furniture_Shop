@@ -80,7 +80,7 @@ const Header: FC = () => {
         if (dropdownMenuUser) {
             dropdownMenuUser.style.height = '45px';
         }
-    }, [scrollY, images.length])
+    }, [scrollY, images?.length])
 
     const clickToAboutUs = () => {
         const aboutUsElement = document.getElementById('about-us') as HTMLElement;
